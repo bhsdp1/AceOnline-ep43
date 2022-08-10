@@ -1,0 +1,271 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SCVoIP.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SCVoIP.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SCVoIP 정보"
+FONT 9, "굴림"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "SCVoIP 버전 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DIALOG_ATUM_VOIP DIALOGEX 0, 0, 265, 225
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SC VoIP"
+FONT 9, "굴림", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_PHONENUMBER,13,57,87,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PCN,40,145,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PWD,40,162,60,12,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "Logout status",IDC_BUTTON_LOGIN,28,179,59,12
+    CONTROL         "PC",IDC_RADIO_PC,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    75,82,22,10
+    CONTROL         "PH",IDC_RADIO_PH,"Button",BS_AUTORADIOBUTTON,75,93,23,
+                    10
+    PUSHBUTTON      "1",IDC_BUTTON_1,21,72,15,15
+    PUSHBUTTON      "2",IDC_BUTTON_2,38,72,15,15
+    PUSHBUTTON      "3",IDC_BUTTON_3,55,72,15,15
+    PUSHBUTTON      "4",IDC_BUTTON_4,21,90,15,15
+    PUSHBUTTON      "5",IDC_BUTTON_5,38,90,15,15
+    PUSHBUTTON      "6",IDC_BUTTON_6,55,90,15,15
+    PUSHBUTTON      "7",IDC_BUTTON_7,21,108,15,15
+    PUSHBUTTON      "8",IDC_BUTTON_8,38,108,15,15
+    PUSHBUTTON      "9",IDC_BUTTON_9,55,108,15,15
+    PUSHBUTTON      "*",IDC_BUTTON_10,21,126,15,15
+    PUSHBUTTON      "0",IDC_BUTTON_0,38,126,15,15
+    PUSHBUTTON      "#",IDC_BUTTON_11,55,126,15,15
+    DEFPUSHBUTTON   "Dial",IDC_BUTTON_DIAL,73,110,27,32
+    PUSHBUTTON      "확인",IDOK,205,204,53,14
+    EDITTEXT        IDC_EDIT_STATUS,13,31,87,12,ES_AUTOHSCROLL | ES_READONLY
+    CTEXT           "Status",IDC_STATIC,34,19,44,8
+    CTEXT           "PhoneNumber",IDC_STATIC,31,46,50,8
+    CTEXT           "PCN",IDC_STATIC,13,149,23,8
+    CTEXT           "PWD",IDC_STATIC,13,164,23,8
+    GROUPBOX        "",IDC_STATIC,73,72,27,34
+    GROUPBOX        "1:1 통화",IDC_STATIC,7,7,100,190
+    GROUPBOX        "N:N 통화",IDC_STATIC,114,7,144,190
+    EDITTEXT        IDC_EDIT_STATUS2,123,31,128,20,ES_MULTILINE | 
+                    ES_READONLY
+    CTEXT           "Status",IDC_STATIC,164,19,44,8
+    EDITTEXT        IDC_EDIT_ERROR2,123,72,128,20,ES_MULTILINE | ES_READONLY
+    CTEXT           "Error",IDC_STATIC,164,60,44,8
+    CONTROL         "",IDC_SCDIALER1CTRL1,
+                    "{E43303FE-BDE8-44E2-87BF-259D920F3ADD}",NOT WS_VISIBLE,
+                    7,173,60,25
+    CONTROL         "",IDC_SCDIALER2CTRL1,
+                    "{ADAA5F78-0B23-4C82-B40D-9A547B2F9049}",NOT WS_VISIBLE,
+                    115,171,60,25
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,1,1,2
+ PRODUCTVERSION 1,0,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Masang Soft\0"
+            VALUE "FileDescription", "SCVoIP MFC Appication\0"
+            VALUE "FileVersion", "2, 1, 1, 2\0"
+            VALUE "InternalName", "SCVoIP\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SCVoIP.EXE\0"
+            VALUE "PrivateBuild", "1009\0"
+            VALUE "ProductName", "SCVoIP\0"
+            VALUE "ProductVersion", "1, 0, 1, 0\0"
+            VALUE "SpecialBuild", "20081022\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DIALOG_ATUM_VOIP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 218
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_ATUM_VOIP DLGINIT
+BEGIN
+    IDC_SCDIALER1CTRL1, 0x376, 64, 0
+0x0000, 0x0000, 0x0000, 0x0001, 0x0ada, 0x0000, 0x03ed, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x1f42, 0x0000, 0x4000, 0x001f, 0x0000, 0x0000, 0x0100, 
+0x4000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0001, 0x0000, 0x0100, 0x0000, 
+0x3f00, 0x001f, 0x3e00, 0x001f, 0x0000, 
+    IDC_SCDIALER2CTRL1, 0x376, 20, 0
+0x0000, 0x0000, 0x0000, 0x0001, 0x0ada, 0x0000, 0x03ed, 0x0000, 0x0000, 
+0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "SCVoIP 정보(&A)..."
+    IDP_SOCKETS_INIT_FAILED "Windows 소켓 초기화에 실패하였습니다."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "SCVoIP"
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\SCVoIP.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,30 @@
+﻿  XmlRpcClient.cpp
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcClient.cpp(247,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcClient.cpp(252,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  XmlRpcDispatch.cpp
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcDispatch.cpp(197,3): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  XmlRpcServer.cpp
+  XmlRpcServerConnection.cpp
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcServerConnection.cpp(348,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  XmlRpcServerMethod.cpp
+  XmlRpcSocket.cpp
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcSocket.cpp(12,1): warning C4005: 'EINPROGRESS': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\ucrt\errno.h(101): message : see previous definition of 'EINPROGRESS'
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcSocket.cpp(13,1): warning C4005: 'EWOULDBLOCK': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\ucrt\errno.h(129): message : see previous definition of 'EWOULDBLOCK'
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcSocket.cpp(14,1): warning C4005: 'ETIMEDOUT': macro redefinition
+D:\Windows Kits\10\Include\10.0.19041.0\ucrt\errno.h(127): message : see previous definition of 'ETIMEDOUT'
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcSocket.cpp(154,24): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcSocket.cpp(256,3): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  XmlRpcSource.cpp
+  XmlRpcUtil.cpp
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcUtil.cpp(78,5): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcUtil.cpp(90,3): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  XmlRpcValue.cpp
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcValue.cpp(317,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcValue.cpp(345,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcValue.cpp(389,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcValue.cpp(403,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+T:\44 2022\ProjectsServer\XmlRpc\src\XmlRpcValue.cpp(555,11): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  xmlrpc.vcxproj -> T:\44 2022\BuildResult\Lib\Release\xmlrpc.lib

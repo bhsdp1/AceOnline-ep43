@@ -1,0 +1,33 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "SCVoIP"=".\SCVoIP.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+    {A5F872C7-268E-42B8-81BE-548316D2AB4B}
+    {7B3A6A8C-35BB-4D33-881E-EA781A671457}
+    {E43303FE-BDE8-44E2-87BF-259D920F3ADD}
+    {ADAA5F78-0B23-4C82-B40D-9A547B2F9049}
+}}}
+
+###############################################################################
+

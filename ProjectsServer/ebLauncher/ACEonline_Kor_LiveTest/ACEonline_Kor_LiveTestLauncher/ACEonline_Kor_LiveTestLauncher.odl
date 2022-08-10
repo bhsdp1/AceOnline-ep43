@@ -1,0 +1,69 @@
+// ACEonline_Kor_LiveTestLauncher.odl : type library source for ActiveX Control project.
+
+// This file will be processed by the Make Type Library (mktyplib) tool to
+// produce the type library (ACEonline_Kor_LiveTestLauncher.tlb) that will become a resource in
+// ACEonline_Kor_LiveTestLauncher.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(452556BC-696C-406F-90C1-8DC5D12B576C), version(1.0),
+  helpfile("ACEonline_Kor_LiveTestLauncher.hlp"),
+  helpstring("ACEonline_Kor_LiveTestLauncher ActiveX Control module"),
+  control ]
+library ACEONLINE_KOR_LIVETESTLAUNCHERLib
+{
+	importlib(STDOLE_TLB);
+	importlib(STDTYPE_TLB);
+
+	//  Primary dispatch interface for CACEonline_Kor_LiveTestLauncherCtrl
+
+	[ uuid(7B81380B-118F-45F1-A2A9-E9251E0F67D0),
+	  helpstring("Dispatch interface for ACEonline_Kor_LiveTestLauncher Control"), hidden ]
+	dispinterface _DACEonline_Kor_LiveTestLauncher
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CACEonline_Kor_LiveTestLauncherCtrl)
+			//}}AFX_ODL_PROP
+
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CACEonline_Kor_LiveTestLauncherCtrl)
+			//}}AFX_ODL_METHOD
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  Event dispatch interface for CACEonline_Kor_LiveTestLauncherCtrl
+
+	[ uuid(6EC401F8-5E16-462C-8EA2-144072876D62),
+	  helpstring("Event interface for ACEonline_Kor_LiveTestLauncher Control") ]
+	dispinterface _DACEonline_Kor_LiveTestLauncherEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+			// NOTE - ClassWizard will maintain event information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_EVENT(CACEonline_Kor_LiveTestLauncherCtrl)
+			//}}AFX_ODL_EVENT
+	};
+
+	//  Class information for CACEonline_Kor_LiveTestLauncherCtrl
+
+	[ uuid(9077D378-35FA-4E59-99B8-9E1379B24C55),
+	  helpstring("ACEonline_Kor_LiveTestLauncher Control"), control ]
+	coclass ACEonline_Kor_LiveTestLauncher
+	{
+		[default] dispinterface _DACEonline_Kor_LiveTestLauncher;
+		[default, source] dispinterface _DACEonline_Kor_LiveTestLauncherEvents;
+	};
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

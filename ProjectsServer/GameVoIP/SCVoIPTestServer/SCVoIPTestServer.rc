@@ -1,0 +1,244 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SCVoIPTestServer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SCVoIPTestServer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SCVoIPTestServer 정보"
+FONT 9, "굴림"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "SCVoIPTestServer 버전 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2003",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_SCVoIPTestServer_DIALOG DIALOGEX 0, 0, 315, 177
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SCVoIPTestServer"
+FONT 9, "굴림"
+BEGIN
+    PUSHBUTTON      "SCVoIP 실행",IDC_BTN_EXECUTE,133,12,55,15
+    PUSHBUTTON      "SCVoIP 종료",IDC_BTN_EXIT,193,12,55,15
+    PUSHBUTTON      "통화 종료",IDC_BTN_CALL_END,253,12,55,15
+    PUSHBUTTON      "1to1 Register",IDC_BTN_1to1_REGISTER,19,60,92,15
+    PUSHBUTTON      "통화(1to1Call)",IDC_BTN_CALLER_PC2PC,19,79,92,15
+    PUSHBUTTON      "NtoN CreateRoom",IDC_BTN_NtoN_CREATEROOM,204,60,92,15
+    PUSHBUTTON      "NtoN JoinRoom",IDC_BTN_NtoN_JOINROOM,204,79,92,15
+    DEFPUSHBUTTON   "종료",IDOK,258,156,50,14
+    LTEXT           "Status :",IDC_STATIC,12,14,26,8
+    EDITTEXT        IDC_EDIT_STATUS,39,13,79,12,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "1 : 1 통화 테스트",IDC_STATIC,10,43,110,119
+    GROUPBOX        "편대간 통화 테스트",IDC_STATIC,194,43,110,85
+    PUSHBUTTON      "말하기",IDC_BTN_TALK,225,98,50,15
+    PUSHBUTTON      "1to1 SetSpkVolume",IDC_BTN_1to1_SET_VOL,19,105,89,14
+END
+
+IDD_DIALOG_INPUT DIALOG DISCARDABLE  0, 0, 191, 101
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 12, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_ACCOUNT,113,7,72,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CHARACTER,113,22,72,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PARTYID,113,37,72,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,7,80,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,135,80,50,14
+    LTEXT           "자신의 AccountUniqueNumber :",IDC_STATIC_1,7,9,105,11
+    LTEXT           "자신의 CharacterName :",IDC_STATIC_2,31,24,81,11
+    RTEXT           "PartyID :",IDC_STATIC_3,28,39,84,11
+    CONTROL         "Party",IDC_RADIO_PARTY,"Button",BS_AUTORADIOBUTTON,43,
+                    57,33,10
+    CONTROL         "Guild",IDC_RADIO_GUILD,"Button",BS_AUTORADIOBUTTON,113,
+                    57,33,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "SCVoIPTestServer MFC 응용 프로그램\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "SCVoIPTestServer\0"
+            VALUE "LegalCopyright", "Copyright (C) 2003\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SCVoIPTestServer.EXE\0"
+            VALUE "ProductName", "SCVoIPTestServer 응용 프로그램\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SCVoIPTestServer_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 308
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_DIALOG_INPUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 185
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 94
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "SCVoIPTestServer 정보(&A)..."
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\SCVoIPTestServer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

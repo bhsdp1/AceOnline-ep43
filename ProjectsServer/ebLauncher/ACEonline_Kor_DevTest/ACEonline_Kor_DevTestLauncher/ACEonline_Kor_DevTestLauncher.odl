@@ -1,0 +1,69 @@
+// ACEonline_Kor_DevTestLauncher.odl : type library source for ActiveX Control project.
+
+// This file will be processed by the Make Type Library (mktyplib) tool to
+// produce the type library (ACEonline_Kor_DevTestLauncher.tlb) that will become a resource in
+// ACEonline_Kor_DevTestLauncher.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(549419D7-19AC-4A09-92CE-D6E780214506), version(1.0),
+  helpfile("ACEonline_Kor_DevTestLauncher.hlp"),
+  helpstring("ACEonline_Kor_DevTestLauncher ActiveX Control module"),
+  control ]
+library ACEONLINE_KOR_DEVTESTLAUNCHERLib
+{
+	importlib(STDOLE_TLB);
+	importlib(STDTYPE_TLB);
+
+	//  Primary dispatch interface for CACEonline_Kor_DevTestLauncherCtrl
+
+	[ uuid(15343484-240F-47F5-9DFB-6B504DD3F1A1),
+	  helpstring("Dispatch interface for ACEonline_Kor_DevTestLauncher Control"), hidden ]
+	dispinterface _DACEonline_Kor_DevTestLauncher
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CACEonline_Kor_DevTestLauncherCtrl)
+			//}}AFX_ODL_PROP
+
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CACEonline_Kor_DevTestLauncherCtrl)
+			//}}AFX_ODL_METHOD
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  Event dispatch interface for CACEonline_Kor_DevTestLauncherCtrl
+
+	[ uuid(3FD39C9E-D7A7-4AA5-BCD8-6149C619D082),
+	  helpstring("Event interface for ACEonline_Kor_DevTestLauncher Control") ]
+	dispinterface _DACEonline_Kor_DevTestLauncherEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+			// NOTE - ClassWizard will maintain event information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_EVENT(CACEonline_Kor_DevTestLauncherCtrl)
+			//}}AFX_ODL_EVENT
+	};
+
+	//  Class information for CACEonline_Kor_DevTestLauncherCtrl
+
+	[ uuid(63B871D4-A1B9-4788-B06D-6EFB9DB1E1AC),
+	  helpstring("ACEonline_Kor_DevTestLauncher Control"), control ]
+	coclass ACEonline_Kor_DevTestLauncher
+	{
+		[default] dispinterface _DACEonline_Kor_DevTestLauncher;
+		[default, source] dispinterface _DACEonline_Kor_DevTestLauncherEvents;
+	};
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

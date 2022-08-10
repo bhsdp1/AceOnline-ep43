@@ -1,0 +1,2 @@
+INSERT INTO atum2_db_account.dbo.ti_ItemInfo (ItemNum, Kind, ItemName, ReqRace, ReqUnitKind, ReqMinLevel, Position, Scarcity, MinTradeQuantity, SellingPrice, SourceIndex, Description, AbilityMin, AbilityMax, Weight, HitRate, FractionResistance, Endurance, ParameterValue1,ParameterValue2, ParameterValue3, ParameterValue4, ParameterValue5, ParameterValue6, ParameterValue7, ParameterValue8, RangeAngle, BoosterAngle) 
+VALUES( 8000000, 60, '\cReset Color\c',	2, 65535, 1, 99, 1, 1, 100, 0, '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)

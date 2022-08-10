@@ -1,0 +1,4 @@
+INSERT INTO [ti_ItemInfo] VALUES (9944000, 20, '\c[ANI] SP Summon\c', 0, 0, 15, 0, 0, 0, 0, 0, 0, 65535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 99, 1, 0, 0, 2, 0, 1, 0, 115, 2052100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32770, 0, 0, 7021100, '[Event Item] Special item that can Summon a \cStrategic Point\c. \r[Notice] This item can use only by Leader', 0, 0, 0);
+GO
+INSERT INTO [ti_ItemInfo] VALUES (9944100, 20, '\e[BCU] SP Summon\e', 0, 0, 15, 0, 0, 0, 0, 0, 0, 65535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 99, 1, 0, 0, 2, 0, 1, 0, 115, 2052000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32770, 0, 0, 7021100, '[Event Item] Special item that can Summon a \eStrategic Point\e. \r[Notice] This item can use only by Leader', 0, 0, 0);
+GO

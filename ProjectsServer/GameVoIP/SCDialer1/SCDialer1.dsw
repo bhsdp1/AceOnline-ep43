@@ -1,0 +1,38 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "SCDialer1"=.\SCDialer1.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/SCDialer1_20040427", OHTAAAAA
+    .
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+    begin source code control
+    "$/SCDialer1_20040427", OHTAAAAA
+    .
+    end source code control
+}}}
+
+Package=<3>
+{{{
+    {A5F872C7-268E-42B8-81BE-548316D2AB4B}
+}}}
+
+###############################################################################
+

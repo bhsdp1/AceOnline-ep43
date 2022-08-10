@@ -1,0 +1,326 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "1 TYPELIB ""SCDialer1.tlb""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,3,2
+ PRODUCTVERSION 1,0,2,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "MasangSoft\0"
+            VALUE "FileDescription", "SCDialer1 Module\0"
+            VALUE "FileVersion", "1, 0, 3, 2\0"
+            VALUE "InternalName", "SCDialer1\0"
+            VALUE "LegalCopyright", "Copyright (C) 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OLESelfRegister", "\0"
+            VALUE "OriginalFilename", "SCDialer1.OCX\0"
+            VALUE "PrivateBuild", "1010\0"
+            VALUE "ProductName", "SCDialer1 Module\0"
+            VALUE "ProductVersion", "1, 0, 2, 0\0"
+            VALUE "SpecialBuild", "20081022\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ABOUTDLL            ICON    DISCARDABLE     "SCDialer1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SCDialer1           BITMAP  DISCARDABLE     "SCDialer1Ctl.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX_SCDialer1 DIALOG DISCARDABLE  34, 22, 260, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About SCDialer1 Control"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_ABOUTDLL,IDC_STATIC,10,10,20,20
+    LTEXT           "SCDialer1 Control, Version 1.0",IDC_STATIC,40,10,170,8
+    LTEXT           "Copyright (C) 2001, WebCall World",IDC_STATIC,40,25,170,
+                    8
+    DEFPUSHBUTTON   "OK",IDOK,221,7,32,14,WS_GROUP
+END
+
+IDD_PROPPAGE_SCDialer1 DIALOG DISCARDABLE  0, 0, 250, 62
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Not implemented..........!!!!",IDC_STATIC,81,26,89,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX_SCDialer1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_PROPPAGE_SCDialer1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SCDialer1           "SCDialer1 Control"
+    IDS_SCDialer1_PPG       "SCDialer1 Property Page"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SCDialer1_PPG_CAPTION "General"
+    IDS_ERROR_SOCKET        "Socket Error"
+    IDS_DISCONNECTED        "Disconnected"
+    IDS_ERROR_STATE         "Error state"
+    IDS_READY               "Ready"
+    IDS_WAIT_A_MOMENT       "Ringing..."
+    IDS_HANGUP              "Hang up"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    CG_IDS_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SOC_AFNOSUPPORT     "Can't support socket"
+    IDS_SOC_CONNREFUSED     "Connection rejected"
+    IDS_SOC_NETUNREACH      "Can't reach host"
+    IDS_SOC_FAULT           "Socket param error"
+    IDS_SOC_INVAL           "Already bounded"
+    IDS_SOC_INCONN          "Alredy connected"
+    IDS_SOC_MFILE           "Socket file error"
+    IDS_SOC_NOTCONN         "Not connected"
+    IDS_SOC_TIMEOUT         "Socket timeout"
+    IDS_SOC_NOBUFS          "Buffer error"
+    IDS_CONNECTED           "00:00"
+    IDS_PROTO_INVALIDID     "Please login this site"
+    IDS_PROTO_INVALIDPRODUCT "Reload this component"
+    IDS_TRY                 "Trying..."
+    IDS_NOFREECHANNEL       "Server busy"
+    IDS_INVALID_NUMBER      "Invalid number"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_USBAUDIO            "USB 오디오 장치"
+    IDS_USBAUDIOXP_CYFONE   "USB Playback and Recording Syst"
+    IDS_USBAUDIOXP          "USB Audio Device"
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_CALL DIALOG DISCARDABLE  0, 0, 131, 41
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Incomming call.."
+FONT 9, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "Yes",IDOK,16,25,45,11
+    PUSHBUTTON      "No",IDCANCEL,66,25,45,11
+    LTEXT           "Do you receive a call?",IDC_STATIC_CALLNUMBER,13,6,96,
+                    10,NOT WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_CALL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 124
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 37
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// G7231
+//
+
+IDR_G7231_RING          G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\ring.7231"
+IDR_G7231_11            G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\#.7231"
+IDR_G7231_0             G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\0.7231"
+IDR_G7231_1             G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\1.7231"
+IDR_G7231_2             G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\2.7231"
+IDR_G7231_3             G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\3.7231"
+IDR_G7231_4             G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\4.7231"
+IDR_G7231_5             G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\5.7231"
+IDR_G7231_6             G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\6.7231"
+IDR_G7231_7             G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\7.7231"
+IDR_G7231_8             G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\8.7231"
+IDR_G7231_9             G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\9.7231"
+IDR_G7231_10            G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\asterisk.7231"
+IDR_G7231_MENT          G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\ment.7231"
+IDR_G7231_SENTBTN       G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\sendbtn.7231"
+IDR_G7231_BUSY          G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\Busy.7231"
+IDR_G7231_TIMEOUT       G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\timeout.7231"
+IDR_G7231_12            G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\back.7231"
+IDR_G7231_DIALTONE      G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\dialtone.7231"
+IDR_G7231_DIALTONE2     G7231   DISCARDABLE     "dialtone2.7231"
+IDR_G7231L_0            G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\0.7231L"
+IDR_G7231L_1            G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\1.7231L"
+IDR_G7231L_2            G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\2.7231L"
+IDR_G7231L_3            G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\3.7231L"
+IDR_G7231L_4            G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\4.7231L"
+IDR_G7231L_5            G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\5.7231L"
+IDR_G7231L_6            G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\6.7231L"
+IDR_G7231L_7            G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\7.7231L"
+IDR_G7231L_8            G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\8.7231L"
+IDR_G7231L_9            G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\9.7231L"
+IDR_G7231L_10           G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\asterisk.7231L"
+IDR_G7231L_11           G7231   DISCARDABLE     "RAD_RTP\\G7231_dtmf\\sharp.7231L"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE_RING           WAVE    DISCARDABLE     "sound\\ring.wav"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+1 TYPELIB "SCDialer1.tlb"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
